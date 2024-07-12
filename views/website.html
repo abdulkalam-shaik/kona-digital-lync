@@ -5,43 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./../styles/website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="container">
-        <div class="logo">
-            <img src="https://kona-digital.com/images/logo.png" alt="Kona Logo" height="50">
-        </div>
-        <nav>
-            <div class="dropdown">
-                <a href="#">Products</a>
-                <div class="dropdown-content">
-                    <a href="./lms.html">LMS</a>
-                    <a href="./crm.html">CRM</a>
-                    <a href="./hrms.html">HRMS</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="#">Solutions</a>
-                <div class="dropdown-content">
-                    <a href="./educational-instituions.html">Educational Institutions</a>
-                    <a href="./Finance.html">FINANCE</a>
-                </div>
-            </div>
-
-            <div class="dropdown">
-                <a href="#">SERVICES</a>
-                <div class="dropdown-content">
-                    <a href="./Sales.html">Sales</a>
-                    <a href="./Services.html">Services</a>
-                    <a href="./marketing.html">marketing</a>
-                </div>
-            </div>
+    <div class="logo">
+        <img src="https://kona-digital.com/images/logo.png" alt="Kona Logo" height="50">
+    </div>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item"> Products <span class="arrow">&#9662;</span>
+                <ul class="dropdown">
+                    <li><a href="./../views/lms.html">LMS</a></li>
+                    <li><a href="./../views/crm.html">CRM</a></li>
+                    <li><a href="./../views/hrms.html">HRMS</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                Solutions <span class="arrow">&#9662;</span>
+                <ul class="dropdown">
+                    <li><a href="./../views/educational-instituions.html">Educational Institutions</a></li>
+                    <li>FINANCE</li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                Services <span class="arrow">&#9662;</span>
+                <ul class="dropdown">
+                    <li>fSales</li>
+                    <li>Services</li>
+                    <li>marketing</li>
+                </ul>
+            
+            </li>
             <a href="#">Resources</a>
-            <button>Start Now</button>
-        </nav>
+            <a id="shaik" href="./../views/know-more.html">Start Now</a>
+        </ul>
+    </nav>
     </div>
-    </div>
+    <script src="./../scripts/arrow.js"></script>
     <div class="header-text">
         <h6>MEET US</h6>
         <img src="https://kona-digital.com/images/pathone.png">
@@ -54,8 +57,8 @@
     </div>
     <div class="btns">
         <div class="btn-1">
-            <button id="btnid"><a href=.know-more.html></a> Know More</button>
-            <button class="btn3">Ask For Free Demo</button>
+            <a href="./../views/know-more.html"><button id="btnid"> Know More</button></a>
+            <a href="./../views/know-more.html"> <button class="btn3"> For Free Demo</button></a>
         </div>
         <div class="cards">
             <div class="background">
@@ -249,7 +252,7 @@
                     <span1>
                         <p>What services does Kona Digital provide?</p>
                     </span1>
-                    <span2 class="arrow">&#11107;</span2>
+                    <span2 class="arrow2">&#11107;</span2>
                 </div>
                 <div class="answer">
                     <p> Kona Digital specializes in building custom AI applications, including AI-powered CRM, LMS, and
@@ -263,7 +266,7 @@
                     <span1>
                         <p>How can AI solutions benefit my business?</p>
                     </span1>
-                    <span2 class="arrow">&#11107;</span2>
+                    <span2 class="arrow2">&#11107;</span2>
                 </div>
                 <div class="answer">
                     <P> AI solutions can automate repetitive tasks, provide valuable insights through predictive
@@ -279,7 +282,7 @@
                     <span1>
                         <p>Is it easy to integrate Kona Digital's AI solutions with my existing systems?</p>
                     </span1>
-                    <span2 class="arrow">&#11107;</span2>
+                    <span2 class="arrow2">&#11107;</span2>
                 </div>
 
                 <div class="answer">
@@ -293,7 +296,7 @@
                         <span1>
                             <p>Can Kona Digital's solutions be customized for my business?</p>
                         </span1>
-                        <span2 class="arrow">&#11107;</span2>
+                        <span2 class="arrow2">&#11107;</span2>
                     </div>
                     <div class="answer">
                         <p> Absolutely. We understand that every business is unique. Our AI solutions are highly
@@ -305,7 +308,7 @@
                             <span1>
                                 <p>How does Kona Digital ensure data security?</p>
                             </span1>
-                            <span2 class="arrow">&#11107;</span2>
+                            <span2 class="arrow2">&#11107;</span2>
                         </div>
                         <div class="answer">
                             <p>We prioritize data security and comply with industry-leading standards and regulations.
@@ -323,7 +326,7 @@
                             <p>Whether you have a groundbreaking idea or a challenging project <br> in mind, AI Hub is
                                 here to
                                 make it a reality.</p>
-                            <button> Send Message</button>
+                             <a href="./../views/know-more.html"> <button>Send Message</button></a>
                         </div>
                         <div class="connectimg">
                             <img src="https://kona-digital.com/images/connect.png" width="50%">
@@ -343,25 +346,27 @@
                         <div class="info-column">
                             <h2>Products</h2>
                             <ul>
-                                <li>LMS</li>
-                                <li>CRM</li>
-                                <li>HRMS</li>
+                                <li><a href="./../views/lms.html">LMS</a></li>
+                                <li><a href="./../views/crm.html">CRM</a></li>
+                                <li><a href="./../views/hrms.html">HRMS</a></li>
                             </ul>
                         </div>
                         <div class="info-column">
                             <h2>Solutions</h2>
                             <ul>
-                                <li>LMS</li>
-                                <li>CRM</li>
-                                <li>HRMS</li>
+                                <li>
+                                    <a href="./../views/lms.html">LMS</a>
+                                </li>
+                                <li><a href="./../views/crm.html">CRM</a></li>
+                                <li><a href="./../views/hrms.html">HRMS</a></li>
                             </ul>
                         </div>
                         <div class="info-column">
                             <h2>Services</h2>
                             <ul>
-                                <li>LMS</li>
-                                <li>CRM</li>
-                                <li>HRMS</li>
+                                <li><a href="./../views/lms.html">LMS</a></li>
+                                <li><a href="./../views/crm.html">CRM</a></li>
+                                <li><a href="./../views/hrms.html">HRMS</a></li>
                             </ul>
                         </div>
                         <div class="info-column">

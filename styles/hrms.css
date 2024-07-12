@@ -209,6 +209,15 @@ border-radius: 8px;
   cursor: pointer;
   position: relative;
 }
+#shaik {
+  background-color: #6c30f2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 
 .arrow {
   position: absolute;

@@ -411,3 +411,11 @@ border-radius: 8px;
   margin-top: -304px;
   padding-left: 20px ;
 }
+#shaik {
+  background-color: #6c30f2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

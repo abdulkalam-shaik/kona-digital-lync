@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -92,4 +92,102 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background: linear-gradient(45deg, #4b0ed9, #e40bda);
+} */
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+.form-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 20px;
+    padding-right: 0px;
+    position: relative;
+    padding-top: 0px;
+}
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-header h2 {
+    margin-left: -20px;
+    margin-top:0px;
+    width:100%;
+    font-size: 1.5em;
+    color: white;
+    background: linear-gradient(45deg,  #4B0ED9, #E40BDA);
+    padding: 10px;
+    padding-top: 0px;
+    border-radius: 8px 8px 0 0;
+}
+.close-btn {
+    background: none;
+    margin-left: -61px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #888;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+input[type="text"],
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-left: -3px;
+    margin-right: 2px;
+}
+.phone-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    background-color: #F9F9F9;
+    font-size: 1em;
+    width: 30%;
+}
+input[type="text"]#phone {
+    width: 70%;
+    border-radius: 0 4px 4px 0;
+    margin-right: 2px;
+    margin-right: 7px;
+    margin-top: 14px;
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg,  #4B0ED9, #E40BDA);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background: linear-gradient(45deg, #4B0ED9, #E40BDA);
 }

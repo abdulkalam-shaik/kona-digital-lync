@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 body {
     font-family: Arial, sans-serif;
     padding: 0;
@@ -662,46 +661,7 @@ a.btn_caller {
   border-top-right-radius: 4px;
   background-image: linear-gradient(-225deg, #a429d7 55%, #f58220);
 }
-/* .contact_txt_caller {
-  position: relative;
-  color: #fff;
-  font-size: 18px;
-  top: -13px;
-  left: 14px;
-}
-.close_call_btn_caller {
-  display: block;
-  position: fixed;
-  right: 16px;
-  bottom: 90px;
-  z-index: 999;
-  width: 60px;
-  height: 60px;
-  box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
-  cursor: pointer;
-  border-radius: 34px 34px 34px 8px;
-  color: #fff;
-  padding: 7px 10px 10px;
-  background-color: #a429d7 !important;
-  color: #fff !important;
-  border-color: transparent #f58220 transparent transparent;
-}
-.close_call_btn_caller img {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-}
-.content_caller {
-  padding: 8% 10%;
-  padding-right: 5%;
-  font-size: 12px;
-  line-height: 20px;
-}
-.popupNumber {
-  color: #000;
-  font-size: 24px;
-} */
-=======
+
 body {
     font-family: Arial, sans-serif;
     padding: 0;
@@ -1202,8 +1162,6 @@ a:-webkit-any-link {
   padding-top: 4px;
   text-decoration: solid;
 }
->>>>>>> 4655bef9245b50347519c5c524e28a7a8730fd6d
-=======
 body {
     font-family: Arial, sans-serif;
     padding: 0;
@@ -1704,4 +1662,3 @@ a:-webkit-any-link {
   padding-top: 4px;
   text-decoration: solid;
 }
->>>>>>> origin/main

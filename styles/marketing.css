@@ -108,25 +108,7 @@ a:-webkit-any-link {
   button:hover {
     background-color: #5c21e2;
   }
-  .arrow {
-    margin-left: 5px;
-}
 
-.arrow {
-  background-color: white;
-    transition: transform 0.3s ease;
-}
-.arrow {
-    position: absolute;
-    transform: translateY(-50%);
-    font-size: 1.5rem;
-    color: #666;
-    right: 17px;
-    top: 29%;
-}
-.arrow {
-    margin-left: 5px;
-}
 @media (min-width: 768px) {
     .container {
         -ms-flex: 0 0 75%;
@@ -568,14 +550,84 @@ a:hover {
     padding: 10px 24px !important;
     border-radius: 8px;
 }
-a.btn_caller {
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6c30f2;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f4f4f4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+button {
+  background-color: #6c30f2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5c21e2;
+}
+.button-container {
   display: block;
   position: fixed;
   right: 16px;
   bottom: 90px;
   z-index: 2;
-  width: 53px;
-  height: 53px;
+  width: 60px;
+  height: 60px;
   box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
   cursor: pointer;
   border-radius: 34px 34px 34px 8px;
@@ -584,15 +636,62 @@ a.btn_caller {
   background-color: #a429d7 !important;
   color: #fff !important;
   border-color: transparent #f58220 transparent transparent;
-  line-height: 55px;
+  line-height: 66px;
   text-align: center;
 }
-.head_caller {
-  width: 100%;
-  height: 20px;
-  padding: 1.5em 5%;
-  overflow: hidden;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  background-image: linear-gradient(-225deg, #a429d7 55%, #f58220);
+.info-popup { 
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  right: -50%; 
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  width: 278px;
+  margin-right: 125px;
 }
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(-225deg, #a429d7 55%, #f58220);
+  padding: 5px;
+  border-radius: 9px 5px 0 0;
+  color: white;
+  font-weight: bold;
+  padding: 4% 1%;
+  padding-right: 5%;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.info-popup p {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info-popup a {
+  color: black;
+  text-decoration: none;
+}
+
+.info-popup a:hover {
+  text-decoration: underline;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #ccc;
+} 
